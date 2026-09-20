@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 groq_key = os.getenv("API_KEY_3")
-
+#
 from langchain.chat_models import init_chat_model
 
 #Groq
